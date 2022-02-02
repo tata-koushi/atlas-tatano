@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.goal-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.goal-block{
+  padding: 16px;
+  width: 28%;
+}
+
+.red{
+  border: 3px solid #df563b;
+}
+
+.blue{
+  border: 3px solid #3c4767;
+}
+
+.black{
+  border: 3px solid #000000;
+}
+
+.goal-name{
+  font-size: 24px;
+  height: 80px;
+}
+
+.sentence{
+  font-size: 16px;
+}
+
+small{
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
